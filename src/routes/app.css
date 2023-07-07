@@ -1,0 +1,16 @@
+:root {
+    --bg-1: #000000;
+    --fg-1: #ffffff;
+
+    --dark-2: #2e2e2e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: var(--bg-1);
+    color: var(--fg-1);
+
+    font-family: Inter, sans-serif;
+}
