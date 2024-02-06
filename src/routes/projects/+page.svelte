@@ -151,8 +151,8 @@
     }
 
     article {
-        width: 700px;
-        height: 200px;
+        flex: 0 1 600px;
+        min-height: 200px;
         border-radius: 15px;
         padding: 20px;
         border: 1px solid var(--dark-2);
@@ -178,17 +178,19 @@
     }
 
     .links {
-        flex: 1;
         display: flex;
+        flex-wrap: wrap;
         align-items: end;
         justify-content: start;
         gap: 20px;
     }
 
     .icons {
-        float:right;
-        flex: 0;
+        flex: 1;
+        float: right;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: end;
         justify-content: end;
         gap: 10px;
