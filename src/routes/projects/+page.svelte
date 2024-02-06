@@ -108,6 +108,22 @@
     </article>
 
     <article>
+        <header>Edpuzzle Nodus</header>
+        <p>
+            This is a browser extension I created to fast forward videos on <a href="https://edpuzzle.com">Edpuzzle</a>.
+        </p>
+        <footer>
+            <div class="links">
+                <a target="_blank" href="https://github.com/nichady/edpuzzle-nodus">GitHub</a>
+            </div>
+            <div class="icons">
+                <Icon tool="js"/>
+                <Icon tool="html"/>
+            </div>
+        </footer>
+    </article>
+
+    <article>
         <header>Meat&Cheese</header>
         <p>
             A funny game I made when I first started coding.
