@@ -1,6 +1,6 @@
 <script lang="ts">
     import "@fontsource/inter";
-    import "bootstrap-icons/font/bootstrap-icons.css";
+    import "devicon/devicon.min.css";
     import "./app.css";
 </script>
 

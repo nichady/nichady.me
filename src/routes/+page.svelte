@@ -1,8 +1,8 @@
 <h1>Hi, I'm Nicholas.</h1>
 <p>I'm a developer currently studying at Louisiana State University.</p>
 <div class="links">
-    <a target="_blank" href="https://github.com/nichady"><i class="bi-github" /></a>
-    <a target="_blank" href="https://www.linkedin.com/in/nicholas-thai-501333235"><i class="bi-linkedin" /></a>
+    <a target="_blank" href="https://github.com/nichady"><i class="devicon-github-original" /></a>
+    <a target="_blank" href="https://www.linkedin.com/in/nicholas-thai-501333235"><i class="devicon-linkedin-plain" /></a>
 </div>
 
 <style>
