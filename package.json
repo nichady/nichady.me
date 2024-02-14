@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/inter": "^5.0.16",
+		"@octokit/core": "^5.1.0",
 		"devicon": "^2.16.0"
 	}
 }

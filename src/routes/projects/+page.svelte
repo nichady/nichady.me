@@ -1,5 +1,7 @@
 <script lang="ts">
     import Icon from "./Icon.svelte";
+
+    export let data;
 </script>
 
 <h1>My Projects</h1>
@@ -12,7 +14,7 @@
             components inside http handlers. I created it because the Go
             ecosystem lacked a way to monolithically use Go and Svelte together
             while having support for server-side-rendering. It is currently
-            sitting at 50+ stars on GitHub.
+            sitting at {data.golteStars} stars on GitHub.
         </p>
         <footer>
             <div class="links">
