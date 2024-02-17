@@ -2,6 +2,10 @@
     import "@fontsource/inter";
     import "devicon/devicon.min.css";
     import "./app.css";
+    import { onMount } from "svelte";
+    import { fetchData } from "../lib/data";
+
+    onMount(fetchData);
 </script>
 
 <nav>

@@ -1,7 +1,6 @@
 <script lang="ts">
     import Icon from "./Icon.svelte";
-
-    export let data;
+    import { golteStars } from "../../lib/data";
 </script>
 
 <h1>My Projects</h1>
@@ -13,8 +12,11 @@
             Golte is a library for Go that allows you to render Svelte
             components inside http handlers. I created it because the Go
             ecosystem lacked a way to monolithically use Go and Svelte together
-            while having support for server-side-rendering. It is currently
-            sitting at {data.golteStars} stars on GitHub.
+            while having support for server-side-rendering.
+            
+            {#if $golteStars}
+                It is currently sitting at {$golteStars} stars on GitHub.
+            {/if}
         </p>
         <footer>
             <div class="links">
