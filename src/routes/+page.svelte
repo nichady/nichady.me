@@ -1,14 +1,22 @@
 <h1>Hi, I'm Nicholas.</h1>
-<p>I'm a developer currently studying at Louisiana State University.</p>
+<p>
+    I'm a student currently studying at Louisiana State University with a passion for software engineering.
+<br><br>
+    I first got into coding as a high school student when I wanted to create Minecraft mods using Java.
+    Since then, I have learned many other programming languages and technologies.
+</p>
 <div class="links">
     <a target="_blank" href="https://github.com/nichady"><i class="devicon-github-original" /></a>
-    <a target="_blank" href="https://www.linkedin.com/in/nicholas-thai-501333235"><i class="devicon-linkedin-plain" /></a>
+    <a target="_blank" href="https://linkedin.com/in/nichady"><i class="devicon-linkedin-plain" /></a>
 </div>
 
 <style>
     h1 {
-        margin: 0;
-        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    p {
+        max-width: 700px;
     }
 
     .links a {
